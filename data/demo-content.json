@@ -1,0 +1,147 @@
+{
+  "speakers": [
+    {
+      "id": "speaker-01",
+      "name": "Speaker 01",
+      "designation": "Designation pending",
+      "organization": "",
+      "photo": "https://www.gietbbsr.edu.in/public/uploads/file-2.jpg",
+      "category": "Chief Guest",
+      "biography": "Biography to be added after the guest is confirmed.",
+      "order": 1
+    },
+    {
+      "id": "speaker-02",
+      "name": "Speaker 02",
+      "designation": "Designation pending",
+      "organization": "",
+      "photo": "https://www.gietbbsr.edu.in/public/uploads/file-2.jpg",
+      "category": "Keynote Speaker",
+      "biography": "Biography to be added after the speaker is confirmed.",
+      "order": 2
+    },
+    {
+      "id": "speaker-03",
+      "name": "Speaker 03",
+      "designation": "Designation pending",
+      "organization": "",
+      "photo": "",
+      "category": "Panelist",
+      "biography": "Biography to be added after the panelist is confirmed.",
+      "order": 3
+    },
+    {
+      "id": "speaker-04",
+      "name": "Speaker 04",
+      "designation": "Designation pending",
+      "organization": "",
+      "photo": "",
+      "category": "Keynote Speaker",
+      "biography": "Biography to be added after the speaker is confirmed.",
+      "order": 4
+    },
+    {
+      "id": "speaker-05",
+      "name": "Speaker 05",
+      "designation": "Designation pending",
+      "organization": "",
+      "photo": "",
+      "category": "Panelist",
+      "biography": "Biography to be added after the panelist is confirmed.",
+      "order": 5
+    },
+      {
+      "id": "speaker-06",
+      "name": "Speaker 06",
+      "designation": "Designation pending",
+      "organization": "",
+      "photo": "",
+      "category": "Panelist",
+      "biography": "Biography to be added after the panelist is confirmed.",
+      "order": 5
+    }
+  ],
+  "panels": [
+    {
+      "label": "Panel I",
+      "title": "Future of work and HR transformation",
+      "description": "How can HR teams adapt job design and people practices as technology changes the way teams work?",
+      "time": "",
+      "moderator": "",
+      "panelists": [] 
+      },
+    {
+      "label": "Panel II",
+      "title": "Talent development in a changing industry",
+      "description": "How can employers identify emerging skill gaps and build learning pathways that help employees move into new roles?",
+      "time": "",
+      "moderator": "",
+      "panelists": []
+    },
+    {
+      "label": "Panel III",
+      "title": "Industry–academia collaboration",
+      "description": "How can educators and employers shape curricula, projects and work placements around the skills graduates will need?",
+      "time": "",
+      "moderator": "",
+      "panelists": []
+    }
+  ],
+  "agenda": [
+    {
+      "title": "Registration and welcome",
+      "description": "Attendee check-in and morning welcome."
+    },
+    {
+      "title": "Inaugural session",
+      "description": "Opening remarks and introduction to the conclave."
+    },
+    {
+      "title": "Keynote address",
+      "description": "Perspectives on the changing world of work."
+    },
+    {
+      "title": "Panel discussion I",
+      "description": "Future of work and HR transformation."
+    },
+    {
+      "title": "Networking break",
+      "description": "Time for participants to meet and exchange perspectives."
+    },
+    {
+      "title": "Panel discussion II",
+      "description": "Talent development in a changing industry."
+    },
+    {
+      "title": "Panel discussion III",
+      "description": "Industry–academia collaboration."
+    },
+    {
+      "title": "Valedictory session",
+      "description": "Closing remarks and reflections on the day."
+    }
+  ],
+  "gallery": [],
+  "notices": [
+    {
+      "id": "DEMO-01",
+      "title": "2026 event details are to be announced",
+      "description": "The theme, date and venue will be posted here after confirmation.",
+      "category": "Demo notice",
+      "priority": "High",
+      "publishDate": "2026-01-01",
+      "expiryDate": null,
+      "link": null
+    },
+    {
+      "id": "DEMO-02",
+      "title": "A look back at HR Conclave 2025",
+      "description": "The previous edition’s official page features details on speakers, discussions and event photographs.",
+      "category": "Demo notice",
+      "priority": "Normal",
+      "publishDate": "2026-01-01",
+      "expiryDate": null,
+      "link": "#previous-editions"
+    }
+  ]
+}

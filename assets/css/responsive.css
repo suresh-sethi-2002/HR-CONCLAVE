@@ -1,0 +1,75 @@
+@media (max-width: 850px) {
+  .wrap { width: calc(100% - 3rem); }
+  .hero-caption { right: 1.5rem; }
+  .editorial, .highlights-layout { gap: 1.5rem; }
+  .footer-grid { gap: 1rem; }
+  .recognitions img { height: 47px; }
+  .speaker-row { --speakers-per-row: 4; }
+}
+@media (max-width: 700px) {
+  :root { --header-height: 66px; }
+  .wrap { width: calc(100% - 2rem); }
+  .masthead { height: 66px; }
+  .brand-group { gap: .6rem; min-width: 0; }
+  .college-identity strong { font-size: .88rem; }
+  .brand-rule { height: 30px; }
+  .logo-giet { height: 48px; }
+  .logo-conclave { height: 43px; max-width: 105px; }
+  .recognitions { display: none; }
+  .menu-toggle { display: inline-flex; align-items: center; gap: .45rem; min-height: 44px; padding: .35rem .5rem; border: 1px solid var(--line); border-radius: .3rem; background: white; color: var(--navy); font-size: .82rem; font-weight: 750; }
+  .menu-icon { width: 1rem; height: .7rem; border-block: 2px solid currentColor; background: linear-gradient(currentColor, currentColor) center / 100% 2px no-repeat; }
+  .nav-band { position: absolute; width: 100%; top: 100%; box-shadow: 0 10px 14px #081b303b; }
+  .primary-nav { display: none; max-height: calc(100dvh - var(--header-height) - var(--notice-height)); overflow-y: auto; flex-direction: column; gap: 0; padding: .3rem 0; }
+  .site-header.is-open .primary-nav { display: flex; }
+  .primary-nav a { flex-shrink: 0; padding-inline: .6rem; }
+  .primary-nav [aria-current]::after { inset: .3rem auto .3rem 0; width: 2px; height: auto; }
+  .hero { min-height: min(660px, max(560px, calc(100svh - 120px))); padding-block: 9rem 4.2rem; align-items: end; }
+  .hero-visual { inset: 0 0 27%; }
+  .hero-visual img { object-position: 59% 30%; }
+  .hero::after { background: linear-gradient(0deg, #091a30 29%, #091a30e8 43%, #091a3070 69%, #091a3020 100%), linear-gradient(90deg, #091a3050, transparent); }
+  .hero h1 { font-size: clamp(3.5rem, 11vw, 5.3rem); }
+  .hero-caption { right: 1rem; bottom: .8rem; }
+  .hero-facts { gap: .6rem 1rem; }
+  .editorial, .highlights-layout, .archive-card { grid-template-columns: 1fr; }
+  .editorial-copy { padding-left: 0; border-left: 0; }
+  .card-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+  .speaker-row { --speakers-per-row: 3; }
+  .agenda-row { grid-auto-columns: max(195px, calc((100% - 1rem) / 2)); }
+  .archive-card img { max-height: 300px; }
+  .footer-grid { grid-template-columns: 1fr; gap: 1.35rem; }
+  .notice-panel { margin-inline: 0; }
+}
+@media (max-width: 560px) {
+  .speaker-row { --speakers-per-row: 2; }
+}
+@media (max-width: 520px) {
+  :root { --header-height: 103px; }
+  .masthead { height: var(--header-height); align-items: start; padding-top: .45rem; }
+  .brand-group { display: grid; grid-template-columns: auto auto 1fr; gap: .3rem .6rem; }
+  .logo-giet { height: 40px; }
+  .logo-conclave { height: 36px; }
+  .college-identity { grid-column: 1 / -1; gap: .1rem; }
+  .college-identity strong { font-size: .76rem; }
+  .college-identity > span { font-size: .69rem; }
+  .scroll-section-heading { flex-direction: column; align-items: start; }
+  .agenda-row { grid-auto-columns: 74%; }
+}
+@media (max-width: 440px) {
+  .speaker-row { --speakers-per-row: 1; }
+  .card-grid:not(.gallery-grid) { grid-template-columns: 1fr; }
+  .hero-kicker { font-size: .65rem; gap: .5rem; }
+  .hero-kicker::before { flex-basis: .95rem; }
+  .hero-facts dd { font-size: .8rem; }
+  .notice-bar { padding-inline: .65rem; }
+  .notice-toggle { gap: .45rem; }
+  .notice-icon { flex-basis: 1.25rem; height: 1.25rem; }
+  .notice-label { font-size: .61rem; letter-spacing: .025em; }
+  .notice-preview { padding-left: .45rem; font-size: .77rem; }
+}
+@media (max-width: 350px) {
+  .hero h1 { font-size: 3.1rem; }
+}
+@media (prefers-reduced-motion: reduce) {
+  html { scroll-behavior: auto; }
+  *, *::before, *::after { animation: none !important; transition: none !important; }
+}
